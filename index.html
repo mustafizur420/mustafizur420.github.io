@@ -52,6 +52,13 @@
   .btn:hover { transform: translateY(-2px); background: #f2681a; }
   .btn.dark { background: var(--ink); }
   .btn.dark:hover { background: #2b2b2b; }
+  .btn.ghost { background: transparent; color: var(--ink); box-shadow: inset 0 0 0 1.5px var(--ink); }
+  .btn.ghost:hover { background: var(--ink); color: var(--white); }
+  .btn-row { display: flex; gap: 10px; flex-wrap: wrap; }
+  .hero-copy .btn-row { margin-top: 22px; }
+  .hero-copy .btn-row .btn { margin-top: 0; }
+  .cv-row { margin-top: 34px; display: flex; justify-content: center; }
+  @media (max-width: 760px) { .hero-copy .btn-row { justify-content: center; } }
 
   /* Header */
   header { background: var(--cream); position: sticky; top: 0; z-index: 50; }
@@ -508,7 +515,10 @@
 
         <div class="hero-copy">
           <p>I'm a Digital Marketing &amp; Creative Specialist based in Dhaka, Bangladesh. I grow e-commerce sales through media buying, SEO and design.</p>
-          <a href="#contact" class="btn">Let's Work <span aria-hidden="true">→</span></a>
+          <div class="btn-row">
+            <a href="#contact" class="btn">Let's Work <span aria-hidden="true">→</span></a>
+            <a href="Md-Mustafizur-Rahman-CV.pdf" class="btn ghost" download>Download CV <span aria-hidden="true">↓</span></a>
+          </div>
           <div class="scroll-hint"><span class="mouse" aria-hidden="true"></span>Keep<br>Scrolling</div>
         </div>
       </div>
@@ -698,6 +708,7 @@
         <a href="mailto:mustafizurrahmanshakil108@gmail.com">Email <span aria-hidden="true">→</span></a>
         <a href="tel:+8801993480668">+880 1993 480 668 <span aria-hidden="true">→</span></a>
       </div>
+      <div class="cv-row"><a href="Md-Mustafizur-Rahman-CV.pdf" class="btn dark" download>Download My CV <span aria-hidden="true">↓</span></a></div>
     </div>
   </section>
 </main>
