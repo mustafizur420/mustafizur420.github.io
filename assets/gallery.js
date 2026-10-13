@@ -15,7 +15,16 @@
   }
   function draw(el, list) {
     shown = list;
-    el.innerHTML = list.map(card).join("");
+    if (el !== grid) { el.innerHTML = list.map(card).join(""); return; }
+    // Masonry that keeps reading order left-to-right: each design goes into the shortest column.
+    var n = window.innerWidth <= 560 ? 1 : window.innerWidth <= 900 ? 2 : 3, cols = [], h = [];
+    for (var c = 0; c < n; c++) { cols.push([]); h.push(0); }
+    list.forEach(function (it, i) {
+      var k = h.indexOf(Math.min.apply(null, h));
+      cols[k].push(card(it, i)); h[k] += it.height / it.width;
+    });
+    el.style.setProperty("--cols", n); el.dataset.cols = n;
+    el.innerHTML = cols.map(function (c) { return '<div class="g-col">' + c.join("") + "</div>"; }).join("");
   }
   function onClick(e) {
     var b = e.target.closest(".shot"); if (!b) return;
@@ -89,11 +98,19 @@
       });
       grid.addEventListener("click", onClick);
       apply("All");
+      var current = "All";
+      filters.addEventListener("click", function (e) { var b = e.target.closest("button"); if (b) current = b.dataset.cat; });
+      var rt; window.addEventListener("resize", function () {
+        clearTimeout(rt); rt = setTimeout(function () {
+          var n = window.innerWidth <= 560 ? 1 : window.innerWidth <= 900 ? 2 : 3;
+          if (String(n) !== grid.dataset.cols) apply(current);
+        }, 150);
+      });
     }
   }
 
   fetch("gallery.json").then(function (r) { if (!r.ok) throw r; return r.json(); })
-    .then(function (d) { items = d; setup(); })
+    .then(function (d) { items = d.filter(function (it) { return !it.hidden; }); setup(); })
     .catch(function () {
       [featured, grid].forEach(function (el) { if (el) el.innerHTML = '<p class="empty">The gallery could not load. Please refresh the page.</p>'; });
     });
