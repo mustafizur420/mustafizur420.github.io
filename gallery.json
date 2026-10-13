@@ -175,5 +175,113 @@
     "thumb": "gallery/elitbuzz-pam360-thumb.webp",
     "width": 1080,
     "height": 1080
+  },
+  {
+    "title": "Happy Freelancer Day",
+    "client": "DIPTI",
+    "category": "Brand & Social",
+    "image": "gallery/dipti-freelancer-day.webp",
+    "thumb": "gallery/dipti-freelancer-day-thumb.webp",
+    "width": 2048,
+    "height": 2048
+  },
+  {
+    "title": "Cloud Accounting Live Class",
+    "client": "DIPTI",
+    "category": "Education & Courses",
+    "image": "gallery/dipti-cloud-accounting.webp",
+    "thumb": "gallery/dipti-cloud-accounting-thumb.webp",
+    "width": 2048,
+    "height": 2048
+  },
+  {
+    "title": "Authorized Certiport Test Center",
+    "client": "DIPTI",
+    "category": "Brand & Social",
+    "image": "gallery/dipti-certiport-center.webp",
+    "thumb": "gallery/dipti-certiport-center-thumb.webp",
+    "width": 2048,
+    "height": 2048
+  },
+  {
+    "title": "Cyber Security Diploma",
+    "client": "DIPTI",
+    "category": "Education & Courses",
+    "image": "gallery/dipti-cyber-security-diploma.webp",
+    "thumb": "gallery/dipti-cyber-security-diploma-thumb.webp",
+    "width": 1991,
+    "height": 1993
+  },
+  {
+    "title": "Trainer Certifications",
+    "client": "DIPTI",
+    "category": "Brand & Social",
+    "image": "gallery/dipti-trainer-certifications.webp",
+    "thumb": "gallery/dipti-trainer-certifications-thumb.webp",
+    "width": 1600,
+    "height": 1600
+  },
+  {
+    "title": "AI Olympiad: Secure Your Spot",
+    "client": "DIPTI × Daffodil International University",
+    "category": "Events",
+    "image": "gallery/dipti-ai-olympiad-register.webp",
+    "thumb": "gallery/dipti-ai-olympiad-register-thumb.webp",
+    "width": 2048,
+    "height": 2048
+  },
+  {
+    "title": "AI Olympiad Bangladesh Poster",
+    "client": "DIPTI × Daffodil International University",
+    "category": "Events",
+    "image": "gallery/dipti-ai-olympiad-poster.webp",
+    "thumb": "gallery/dipti-ai-olympiad-poster-thumb.webp",
+    "width": 1071,
+    "height": 1266
+  },
+  {
+    "title": "AI Olympiad Visionary Speaker",
+    "client": "DIPTI × Daffodil International University",
+    "category": "Events",
+    "image": "gallery/dipti-ai-olympiad-speaker.webp",
+    "thumb": "gallery/dipti-ai-olympiad-speaker-thumb.webp",
+    "width": 2048,
+    "height": 2048
+  },
+  {
+    "title": "Interior & Exterior Design Course",
+    "client": "DIPTI",
+    "category": "Education & Courses",
+    "image": "gallery/dipti-interior-design-course.webp",
+    "thumb": "gallery/dipti-interior-design-course-thumb.webp",
+    "width": 2048,
+    "height": 2048
+  },
+  {
+    "title": "DevOps Engineering Seminar",
+    "client": "DIPTI",
+    "category": "Events",
+    "image": "gallery/dipti-devops-seminar.webp",
+    "thumb": "gallery/dipti-devops-seminar-thumb.webp",
+    "width": 1080,
+    "height": 1080
+  },
+  {
+    "title": "Master DevOps Engineer Course",
+    "client": "DIPTI",
+    "category": "Education & Courses",
+    "image": "gallery/dipti-master-devops.webp",
+    "thumb": "gallery/dipti-master-devops-thumb.webp",
+    "width": 1600,
+    "height": 1600
+  },
+  {
+    "title": "Diploma in Engineering Admission",
+    "client": "Daffodil Technical Institute",
+    "category": "Education & Courses",
+    "image": "gallery/dti-diploma-engineering.webp",
+    "thumb": "gallery/dti-diploma-engineering-thumb.webp",
+    "width": 2000,
+    "height": 2000
   }
 ]
