@@ -68,6 +68,9 @@ content:
           values:
             - { name: bn, label: বাংলা }
             - { name: en, label: English }
+      - name: translation
+        label: Other-language version (URL of the matching post, optional)
+        type: string
       - name: draft
         label: Draft (tick to hide from the site)
         type: boolean

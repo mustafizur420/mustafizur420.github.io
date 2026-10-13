@@ -6,6 +6,7 @@ description: How a new Bangladeshi gadget store went from its first order to BDT
 date: 2026-10-13
 tag: Case Study
 language: en
+translation: ora-ecommerce-case-study-bn
 lead: Ora.com.bd launched in January 2026 with no customers, no sales history and no ad data. I joined on day one to run its paid growth. Nine months later the store had generated BDT 3 crore in revenue, entirely from Meta Ads, with the monthly ad budget scaled twelvefold along the way.
 tool: breakeven
 draft: false
