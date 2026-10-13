@@ -116,3 +116,5 @@ out += '''  <section class="page-hero">
 out += "</main>\n\n" + relink(footer) + scripts + "\n</body>\n</html>\n"
 open(os.path.join(ROOT, "blog", "index.html"), "w", encoding="utf-8").write(out)
 print("built", len(POSTS), "post(s) + index")
+
+import runpy; runpy.run_path(os.path.join(ROOT, "scripts", "version_assets.py"))

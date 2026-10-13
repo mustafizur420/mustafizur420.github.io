@@ -49,3 +49,5 @@ open(os.path.join(ROOT, "gallery.html"), "w", encoding="utf-8").write(s)
 feat = [it for it in items if it.get("featured")][:6] or items[:6]
 inject("index.html", "featuredWork", "".join(card(it, i) for i, it in enumerate(feat)))
 print("pre-rendered", len(items), "designs,", len(feat), "featured")
+
+import runpy; runpy.run_path(os.path.join(ROOT, "scripts", "version_assets.py"))
