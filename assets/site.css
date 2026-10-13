@@ -532,3 +532,6 @@
   .lightbox img { max-height: calc(100vh - 230px); }
 }
 @media (prefers-reduced-motion: reduce) { .shot, .lightbox { animation: none; } .shot img { transition: none; } }
+
+/* Keep hero copy narrow so it never covers the floating chips */
+@media (min-width: 761px) { .hero-copy { max-width: 270px; } .hero-copy .btn-row { flex-direction: column; align-items: flex-start; } }
