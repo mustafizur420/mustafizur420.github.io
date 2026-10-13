@@ -283,5 +283,95 @@
     "thumb": "gallery/dti-diploma-engineering-thumb.webp",
     "width": 2000,
     "height": 2000
+  },
+  {
+    "title": "Job Utsob 2024 at DIU",
+    "client": "Daffodil Technical Institute × Daffodil International University",
+    "category": "Events",
+    "image": "gallery/dti-job-utsob-2024.webp",
+    "thumb": "gallery/dti-job-utsob-2024-thumb.webp",
+    "width": 1600,
+    "height": 1600
+  },
+  {
+    "title": "Diploma After HSC: Third Phase Admission",
+    "client": "Daffodil Technical Institute",
+    "category": "Education & Courses",
+    "image": "gallery/dti-hsc-diploma-admission.webp",
+    "thumb": "gallery/dti-hsc-diploma-admission-thumb.webp",
+    "width": 1080,
+    "height": 1080
+  },
+  {
+    "title": "Chairman Appointed to GEN Bangladesh",
+    "client": "Daffodil Technical Institute",
+    "category": "Brand & Social",
+    "image": "gallery/dti-congrats-gen-bangladesh.webp",
+    "thumb": "gallery/dti-congrats-gen-bangladesh-thumb.webp",
+    "width": 1080,
+    "height": 1080
+  },
+  {
+    "title": "Group CEO Named BWUF Vice President",
+    "client": "Daffodil Technical Institute",
+    "category": "Brand & Social",
+    "image": "gallery/dti-congrats-bwuf.webp",
+    "thumb": "gallery/dti-congrats-bwuf-thumb.webp",
+    "width": 2048,
+    "height": 2048
+  },
+  {
+    "title": "Alumni Placement: Web Developer",
+    "client": "Daffodil Technical Institute",
+    "category": "Brand & Social",
+    "image": "gallery/dti-alumni-placement.webp",
+    "thumb": "gallery/dti-alumni-placement-thumb.webp",
+    "width": 2048,
+    "height": 2048
+  },
+  {
+    "title": "Diploma in Engineering: Admission Open",
+    "client": "Daffodil Technical Institute",
+    "category": "Education & Courses",
+    "image": "gallery/dti-admission-open.webp",
+    "thumb": "gallery/dti-admission-open-thumb.webp",
+    "width": 2000,
+    "height": 2000
+  },
+  {
+    "title": "Start Your Career: Diploma in Engineering",
+    "client": "Daffodil Technical Institute",
+    "category": "Education & Courses",
+    "image": "gallery/dti-career-change.webp",
+    "thumb": "gallery/dti-career-change-thumb.webp",
+    "width": 2000,
+    "height": 2000
+  },
+  {
+    "title": "Diploma in Civil Engineering",
+    "client": "Daffodil Technical Institute",
+    "category": "Education & Courses",
+    "image": "gallery/dti-civil-engineering.webp",
+    "thumb": "gallery/dti-civil-engineering-thumb.webp",
+    "width": 2048,
+    "height": 2048
+  },
+  {
+    "title": "Diploma in Engineering Campaign",
+    "client": "Daffodil Technical Institute",
+    "category": "Education & Courses",
+    "image": "gallery/dti-diploma-laptop.webp",
+    "thumb": "gallery/dti-diploma-laptop-thumb.webp",
+    "width": 1080,
+    "height": 1080
+  },
+  {
+    "title": "DTI Campus: Diploma in Engineering",
+    "client": "Daffodil Technical Institute",
+    "category": "Education & Courses",
+    "image": "gallery/dti-campus-diploma.webp",
+    "thumb": "gallery/dti-campus-diploma-thumb.webp",
+    "width": 2048,
+    "height": 2048
   }
 ]
