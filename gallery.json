@@ -1,0 +1,179 @@
+[
+  {
+    "title": "Smart SMS Marketing",
+    "client": "MRAM Technologies",
+    "category": "B2B & SaaS",
+    "image": "gallery/mram-smart-sms.webp",
+    "thumb": "gallery/mram-smart-sms-thumb.webp",
+    "width": 1638,
+    "height": 2048
+  },
+  {
+    "title": "Bulk SMS in 10 Seconds",
+    "client": "MRAM Technologies",
+    "category": "B2B & SaaS",
+    "image": "gallery/mram-bulk-sms.webp",
+    "thumb": "gallery/mram-bulk-sms-thumb.webp",
+    "width": 1080,
+    "height": 1350
+  },
+  {
+    "title": "Oraimo Watch 6 Pro",
+    "client": "Ora.com.bd",
+    "category": "Product Ads",
+    "image": "gallery/ora-oraimo-watch-6-pro.webp",
+    "thumb": "gallery/ora-oraimo-watch-6-pro-thumb.webp",
+    "width": 1638,
+    "height": 2048,
+    "featured": true
+  },
+  {
+    "title": "Kaaba Kiswah Scent Offer",
+    "client": "Ora.com.bd",
+    "category": "Product Ads",
+    "image": "gallery/ora-kaaba-scent.webp",
+    "thumb": "gallery/ora-kaaba-scent-thumb.webp",
+    "width": 1638,
+    "height": 2048,
+    "featured": true
+  },
+  {
+    "title": "Portable Turbo Fan",
+    "client": "Ora.com.bd",
+    "category": "Product Ads",
+    "image": "gallery/ora-turbo-fan.webp",
+    "thumb": "gallery/ora-turbo-fan-thumb.webp",
+    "width": 1638,
+    "height": 2048
+  },
+  {
+    "title": "Oraimo Watch Price Lineup",
+    "client": "Ora.com.bd",
+    "category": "Product Ads",
+    "image": "gallery/ora-oraimo-watch-lineup.webp",
+    "thumb": "gallery/ora-oraimo-watch-lineup-thumb.webp",
+    "width": 1638,
+    "height": 2048
+  },
+  {
+    "title": "30K Facebook Followers",
+    "client": "Ora.com.bd",
+    "category": "Brand & Social",
+    "image": "gallery/ora-30k-followers.webp",
+    "thumb": "gallery/ora-30k-followers-thumb.webp",
+    "width": 1638,
+    "height": 2048,
+    "featured": true
+  },
+  {
+    "title": "Oraimo EasyCut Trimmer",
+    "client": "Ora.com.bd",
+    "category": "Product Ads",
+    "image": "gallery/ora-easycut-trimmer.webp",
+    "thumb": "gallery/ora-easycut-trimmer-thumb.webp",
+    "width": 1080,
+    "height": 1350,
+    "featured": true
+  },
+  {
+    "title": "Mini USB Air Humidifier",
+    "client": "Ora.com.bd",
+    "category": "Product Ads",
+    "image": "gallery/ora-air-humidifier.webp",
+    "thumb": "gallery/ora-air-humidifier-thumb.webp",
+    "width": 1638,
+    "height": 2048
+  },
+  {
+    "title": "Marketing & Sales, Handled",
+    "client": "Elitbuzz Technologies",
+    "category": "Brand & Social",
+    "image": "gallery/elitbuzz-marketing-astronaut.webp",
+    "thumb": "gallery/elitbuzz-marketing-astronaut-thumb.webp",
+    "width": 2576,
+    "height": 2576,
+    "featured": true
+  },
+  {
+    "title": "Even Big Brands Need a Boost",
+    "client": "Elitbuzz Technologies",
+    "category": "Brand & Social",
+    "image": "gallery/elitbuzz-boost-elephant.webp",
+    "thumb": "gallery/elitbuzz-boost-elephant-thumb.webp",
+    "width": 1080,
+    "height": 1080,
+    "featured": true
+  },
+  {
+    "title": "Digital Marketing Services",
+    "client": "Elitbuzz Technologies",
+    "category": "Brand & Social",
+    "image": "gallery/elitbuzz-marketing-services.webp",
+    "thumb": "gallery/elitbuzz-marketing-services-thumb.webp",
+    "width": 2000,
+    "height": 2000
+  },
+  {
+    "title": "The First Step to More Sales",
+    "client": "Elitbuzz Technologies",
+    "category": "Brand & Social",
+    "image": "gallery/elitbuzz-first-step.webp",
+    "thumb": "gallery/elitbuzz-first-step-thumb.webp",
+    "width": 2000,
+    "height": 2000
+  },
+  {
+    "title": "All-in-One CRM Solution",
+    "client": "Elitbuzz Technologies",
+    "category": "B2B & SaaS",
+    "image": "gallery/elitbuzz-crm.webp",
+    "thumb": "gallery/elitbuzz-crm-thumb.webp",
+    "width": 2000,
+    "height": 2000
+  },
+  {
+    "title": "ERP for Furniture Business",
+    "client": "Elitbuzz Technologies",
+    "category": "B2B & SaaS",
+    "image": "gallery/elitbuzz-erp-furniture.webp",
+    "thumb": "gallery/elitbuzz-erp-furniture-thumb.webp",
+    "width": 2576,
+    "height": 2576
+  },
+  {
+    "title": "HR Management Software",
+    "client": "Elitbuzz Technologies",
+    "category": "B2B & SaaS",
+    "image": "gallery/elitbuzz-hr-management.webp",
+    "thumb": "gallery/elitbuzz-hr-management-thumb.webp",
+    "width": 2000,
+    "height": 2000
+  },
+  {
+    "title": "ERP for Real Estate",
+    "client": "Elitbuzz Technologies",
+    "category": "B2B & SaaS",
+    "image": "gallery/elitbuzz-erp-real-estate.webp",
+    "thumb": "gallery/elitbuzz-erp-real-estate-thumb.webp",
+    "width": 2576,
+    "height": 2576
+  },
+  {
+    "title": "Endpoint Security Webinar",
+    "client": "Elitbuzz × ManageEngine",
+    "category": "Events",
+    "image": "gallery/elitbuzz-endpoint-webinar.webp",
+    "thumb": "gallery/elitbuzz-endpoint-webinar-thumb.webp",
+    "width": 1080,
+    "height": 1080
+  },
+  {
+    "title": "PAM360 Zero Trust",
+    "client": "Elitbuzz × ManageEngine",
+    "category": "B2B & SaaS",
+    "image": "gallery/elitbuzz-pam360.webp",
+    "thumb": "gallery/elitbuzz-pam360-thumb.webp",
+    "width": 1080,
+    "height": 1080
+  }
+]
