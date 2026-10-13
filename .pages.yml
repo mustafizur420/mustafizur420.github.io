@@ -1,0 +1,117 @@
+# Pages CMS configuration: https://pagescms.org
+media:
+  input: uploads
+  output: /uploads
+
+content:
+  - name: posts
+    label: Blog posts
+    type: collection
+    path: content/posts
+    filename:
+      template: "{fields.slug}.md"
+      field: false
+    view:
+      fields: [title, date, draft]
+      primary: title
+      sort: [date]
+      default:
+        sort: date
+        order: desc
+    fields:
+      - name: title
+        label: Title (shown on the page)
+        type: string
+        required: true
+      - name: slug
+        label: URL (English letters, numbers and dashes, e.g. meta-ads-tips)
+        type: string
+        required: true
+      - name: date
+        label: Publish date
+        type: date
+        required: true
+      - name: tag
+        label: Tag
+        type: select
+        default: Media Buying
+        options:
+          values: [Media Buying, E-commerce, SEO, Social Media, Design, Case Study]
+      - name: description
+        label: Short description (for Google and the blog list, 1–2 sentences)
+        type: text
+        required: true
+      - name: lead
+        label: Opening paragraph (shown large at the top, optional)
+        type: text
+      - name: seo_title
+        label: Google title (optional, defaults to the title)
+        type: string
+      - name: cover
+        label: Cover image (optional, also used when the link is shared)
+        type: image
+      - name: tool
+        label: Calculator card to show in the post (optional)
+        type: select
+        options:
+          values:
+            - { name: roas, label: ROAS Calculator }
+            - { name: breakeven, label: Break-even ROAS }
+            - { name: cod, label: COD Real ROAS }
+            - { name: metrics, label: Ad Metrics }
+            - { name: budget, label: Budget Planner }
+      - name: language
+        label: Language
+        type: select
+        default: bn
+        options:
+          values:
+            - { name: bn, label: বাংলা }
+            - { name: en, label: English }
+      - name: draft
+        label: Draft (tick to hide from the site)
+        type: boolean
+        default: false
+      - name: body
+        label: Post
+        type: rich-text
+        options:
+          format: markdown
+
+  - name: gallery
+    label: Design gallery
+    type: file
+    path: content/gallery.json
+    format: json
+    fields:
+      - name: items
+        label: Designs (top of the list shows first)
+        type: object
+        list: true
+        fields:
+          - name: title
+            label: Design name
+            type: string
+            required: true
+          - name: client
+            label: Client / brand
+            type: string
+            required: true
+          - name: category
+            label: Category
+            type: select
+            required: true
+            options:
+              values: [Product Ads, Brand & Social, B2B & SaaS, Events, Education & Courses]
+          - name: image
+            label: Image (JPG, PNG or WebP)
+            type: image
+            required: true
+          - name: featured
+            label: Show on home page (up to 6)
+            type: boolean
+            default: false
+          - name: hidden
+            label: Hide from the gallery
+            type: boolean
+            default: false

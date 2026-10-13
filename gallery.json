@@ -5,8 +5,8 @@
     "category": "Product Ads",
     "image": "gallery/ora-oraimo-watch-6-pro.webp",
     "thumb": "gallery/ora-oraimo-watch-6-pro-thumb.webp",
-    "width": 1638,
-    "height": 2048,
+    "width": 1400,
+    "height": 1750,
     "featured": true
   },
   {
@@ -15,8 +15,8 @@
     "category": "Brand & Social",
     "image": "gallery/elitbuzz-marketing-astronaut.webp",
     "thumb": "gallery/elitbuzz-marketing-astronaut-thumb.webp",
-    "width": 2576,
-    "height": 2576,
+    "width": 1400,
+    "height": 1400,
     "featured": true
   },
   {
@@ -25,8 +25,8 @@
     "category": "Product Ads",
     "image": "gallery/ora-kaaba-scent.webp",
     "thumb": "gallery/ora-kaaba-scent-thumb.webp",
-    "width": 1638,
-    "height": 2048,
+    "width": 1400,
+    "height": 1750,
     "featured": true
   },
   {
@@ -64,8 +64,8 @@
     "category": "Brand & Social",
     "image": "gallery/ora-30k-followers.webp",
     "thumb": "gallery/ora-30k-followers-thumb.webp",
-    "width": 1638,
-    "height": 2048,
+    "width": 1400,
+    "height": 1750,
     "featured": true
   },
   {
@@ -83,8 +83,8 @@
     "category": "Product Ads",
     "image": "gallery/ora-air-humidifier.webp",
     "thumb": "gallery/ora-air-humidifier-thumb.webp",
-    "width": 1638,
-    "height": 2048
+    "width": 1400,
+    "height": 1750
   },
   {
     "title": "All-in-One CRM Solution",
@@ -92,8 +92,8 @@
     "category": "B2B & SaaS",
     "image": "gallery/elitbuzz-crm.webp",
     "thumb": "gallery/elitbuzz-crm-thumb.webp",
-    "width": 2000,
-    "height": 2000
+    "width": 1400,
+    "height": 1400
   },
   {
     "title": "Hands-on Learning, Secure Career",
@@ -101,8 +101,8 @@
     "category": "Education & Courses",
     "image": "gallery/bci-career-door.webp",
     "thumb": "gallery/bci-career-door-thumb.webp",
-    "width": 2000,
-    "height": 2000
+    "width": 1400,
+    "height": 1400
   },
   {
     "title": "Portable Turbo Fan",
@@ -110,8 +110,8 @@
     "category": "Product Ads",
     "image": "gallery/ora-turbo-fan.webp",
     "thumb": "gallery/ora-turbo-fan-thumb.webp",
-    "width": 1638,
-    "height": 2048
+    "width": 1400,
+    "height": 1750
   },
   {
     "title": "Digital Marketing Services",
@@ -119,8 +119,8 @@
     "category": "Brand & Social",
     "image": "gallery/elitbuzz-marketing-services.webp",
     "thumb": "gallery/elitbuzz-marketing-services-thumb.webp",
-    "width": 2000,
-    "height": 2000
+    "width": 1400,
+    "height": 1400
   },
   {
     "title": "Cyber Security Diploma",
@@ -128,8 +128,8 @@
     "category": "Education & Courses",
     "image": "gallery/dipti-cyber-security-diploma.webp",
     "thumb": "gallery/dipti-cyber-security-diploma-thumb.webp",
-    "width": 1991,
-    "height": 1993
+    "width": 1400,
+    "height": 1401
   },
   {
     "title": "Oraimo Watch Price Lineup",
@@ -137,8 +137,8 @@
     "category": "Product Ads",
     "image": "gallery/ora-oraimo-watch-lineup.webp",
     "thumb": "gallery/ora-oraimo-watch-lineup-thumb.webp",
-    "width": 1638,
-    "height": 2048
+    "width": 1400,
+    "height": 1750
   },
   {
     "title": "Smart SMS Marketing",
@@ -146,8 +146,8 @@
     "category": "B2B & SaaS",
     "image": "gallery/mram-smart-sms.webp",
     "thumb": "gallery/mram-smart-sms-thumb.webp",
-    "width": 1638,
-    "height": 2048
+    "width": 1400,
+    "height": 1750
   },
   {
     "title": "The First Step to More Sales",
@@ -155,8 +155,8 @@
     "category": "Brand & Social",
     "image": "gallery/elitbuzz-first-step.webp",
     "thumb": "gallery/elitbuzz-first-step-thumb.webp",
-    "width": 2000,
-    "height": 2000
+    "width": 1400,
+    "height": 1400
   },
   {
     "title": "Diploma After HSC: Third Phase Admission",
@@ -173,8 +173,8 @@
     "category": "B2B & SaaS",
     "image": "gallery/elitbuzz-erp-real-estate.webp",
     "thumb": "gallery/elitbuzz-erp-real-estate-thumb.webp",
-    "width": 2576,
-    "height": 2576
+    "width": 1400,
+    "height": 1400
   },
   {
     "title": "Happy Freelancer Day",
@@ -182,8 +182,8 @@
     "category": "Brand & Social",
     "image": "gallery/dipti-freelancer-day.webp",
     "thumb": "gallery/dipti-freelancer-day-thumb.webp",
-    "width": 2048,
-    "height": 2048
+    "width": 1400,
+    "height": 1400
   },
   {
     "title": "Polytechnic Admission Fest: 100% Fee Waiver",
@@ -200,8 +200,8 @@
     "category": "B2B & SaaS",
     "image": "gallery/elitbuzz-hr-management.webp",
     "thumb": "gallery/elitbuzz-hr-management-thumb.webp",
-    "width": 2000,
-    "height": 2000
+    "width": 1400,
+    "height": 1400
   },
   {
     "title": "Interior & Exterior Design Course",
@@ -209,8 +209,8 @@
     "category": "Education & Courses",
     "image": "gallery/dipti-interior-design-course.webp",
     "thumb": "gallery/dipti-interior-design-course-thumb.webp",
-    "width": 2048,
-    "height": 2048
+    "width": 1400,
+    "height": 1400
   },
   {
     "title": "ERP for Furniture Business",
@@ -218,8 +218,8 @@
     "category": "B2B & SaaS",
     "image": "gallery/elitbuzz-erp-furniture.webp",
     "thumb": "gallery/elitbuzz-erp-furniture-thumb.webp",
-    "width": 2576,
-    "height": 2576
+    "width": 1400,
+    "height": 1400
   },
   {
     "title": "Polytechnic Civil Engineering",
@@ -227,8 +227,8 @@
     "category": "Education & Courses",
     "image": "gallery/bci-civil-engineering.webp",
     "thumb": "gallery/bci-civil-engineering-thumb.webp",
-    "width": 1638,
-    "height": 2048
+    "width": 1400,
+    "height": 1750
   },
   {
     "title": "AI Olympiad Visionary Speaker",
@@ -236,8 +236,8 @@
     "category": "Events",
     "image": "gallery/dipti-ai-olympiad-speaker.webp",
     "thumb": "gallery/dipti-ai-olympiad-speaker-thumb.webp",
-    "width": 2048,
-    "height": 2048
+    "width": 1400,
+    "height": 1400
   },
   {
     "title": "PAM360 Zero Trust",
@@ -254,8 +254,8 @@
     "category": "Education & Courses",
     "image": "gallery/dti-civil-engineering.webp",
     "thumb": "gallery/dti-civil-engineering-thumb.webp",
-    "width": 2048,
-    "height": 2048
+    "width": 1400,
+    "height": 1400
   },
   {
     "title": "Authorized Certiport Test Center",
@@ -263,8 +263,8 @@
     "category": "Brand & Social",
     "image": "gallery/dipti-certiport-center.webp",
     "thumb": "gallery/dipti-certiport-center-thumb.webp",
-    "width": 2048,
-    "height": 2048
+    "width": 1400,
+    "height": 1400
   },
   {
     "title": "Endpoint Security Webinar",
@@ -281,8 +281,8 @@
     "category": "Education & Courses",
     "image": "gallery/dipti-master-devops.webp",
     "thumb": "gallery/dipti-master-devops-thumb.webp",
-    "width": 1600,
-    "height": 1600
+    "width": 1400,
+    "height": 1400
   },
   {
     "title": "Job Utsob 2024 at DIU",
@@ -290,8 +290,8 @@
     "category": "Events",
     "image": "gallery/dti-job-utsob-2024.webp",
     "thumb": "gallery/dti-job-utsob-2024-thumb.webp",
-    "width": 1600,
-    "height": 1600
+    "width": 1400,
+    "height": 1400
   },
   {
     "title": "Cloud Accounting Live Class",
@@ -299,8 +299,8 @@
     "category": "Education & Courses",
     "image": "gallery/dipti-cloud-accounting.webp",
     "thumb": "gallery/dipti-cloud-accounting-thumb.webp",
-    "width": 2048,
-    "height": 2048
+    "width": 1400,
+    "height": 1400
   },
   {
     "title": "DevOps Engineering Seminar",
@@ -317,8 +317,8 @@
     "category": "Education & Courses",
     "image": "gallery/dti-admission-open.webp",
     "thumb": "gallery/dti-admission-open-thumb.webp",
-    "width": 2000,
-    "height": 2000
+    "width": 1400,
+    "height": 1400
   },
   {
     "title": "AI Olympiad: Secure Your Spot",
@@ -326,8 +326,8 @@
     "category": "Events",
     "image": "gallery/dipti-ai-olympiad-register.webp",
     "thumb": "gallery/dipti-ai-olympiad-register-thumb.webp",
-    "width": 2048,
-    "height": 2048
+    "width": 1400,
+    "height": 1400
   },
   {
     "title": "Trainer Certifications",
@@ -335,8 +335,8 @@
     "category": "Brand & Social",
     "image": "gallery/dipti-trainer-certifications.webp",
     "thumb": "gallery/dipti-trainer-certifications-thumb.webp",
-    "width": 1600,
-    "height": 1600
+    "width": 1400,
+    "height": 1400
   },
   {
     "title": "Alumni Placement: Web Developer",
@@ -344,8 +344,8 @@
     "category": "Brand & Social",
     "image": "gallery/dti-alumni-placement.webp",
     "thumb": "gallery/dti-alumni-placement-thumb.webp",
-    "width": 2048,
-    "height": 2048
+    "width": 1400,
+    "height": 1400
   },
   {
     "title": "Happy Teacher's Day",
@@ -362,8 +362,8 @@
     "category": "Education & Courses",
     "image": "gallery/dti-diploma-engineering.webp",
     "thumb": "gallery/dti-diploma-engineering-thumb.webp",
-    "width": 2000,
-    "height": 2000,
+    "width": 1400,
+    "height": 1400,
     "hidden": true
   },
   {
@@ -372,8 +372,8 @@
     "category": "Education & Courses",
     "image": "gallery/dti-career-change.webp",
     "thumb": "gallery/dti-career-change-thumb.webp",
-    "width": 2000,
-    "height": 2000,
+    "width": 1400,
+    "height": 1400,
     "hidden": true
   },
   {
@@ -392,8 +392,8 @@
     "category": "Education & Courses",
     "image": "gallery/dti-campus-diploma.webp",
     "thumb": "gallery/dti-campus-diploma-thumb.webp",
-    "width": 2048,
-    "height": 2048,
+    "width": 1400,
+    "height": 1400,
     "hidden": true
   },
   {
@@ -402,8 +402,8 @@
     "category": "Education & Courses",
     "image": "gallery/bci-diploma-labs.webp",
     "thumb": "gallery/bci-diploma-labs-thumb.webp",
-    "width": 2000,
-    "height": 2000,
+    "width": 1400,
+    "height": 1400,
     "hidden": true
   },
   {
@@ -422,8 +422,8 @@
     "category": "Education & Courses",
     "image": "gallery/bci-admission-fest-banner.webp",
     "thumb": "gallery/bci-admission-fest-banner-thumb.webp",
-    "width": 2000,
-    "height": 878,
+    "width": 1600,
+    "height": 702,
     "hidden": true
   },
   {
@@ -452,8 +452,8 @@
     "category": "Brand & Social",
     "image": "gallery/dti-congrats-bwuf.webp",
     "thumb": "gallery/dti-congrats-bwuf-thumb.webp",
-    "width": 2048,
-    "height": 2048,
+    "width": 1400,
+    "height": 1400,
     "hidden": true
   }
 ]

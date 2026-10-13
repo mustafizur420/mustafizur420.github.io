@@ -1,0 +1,396 @@
+{
+  "items": [
+    {
+      "title": "Oraimo Watch 6 Pro",
+      "client": "Ora.com.bd",
+      "category": "Product Ads",
+      "image": "gallery/ora-oraimo-watch-6-pro.webp",
+      "featured": true,
+      "hidden": false
+    },
+    {
+      "title": "Marketing & Sales, Handled",
+      "client": "Elitbuzz Technologies",
+      "category": "Brand & Social",
+      "image": "gallery/elitbuzz-marketing-astronaut.webp",
+      "featured": true,
+      "hidden": false
+    },
+    {
+      "title": "Kaaba Kiswah Scent Offer",
+      "client": "Ora.com.bd",
+      "category": "Product Ads",
+      "image": "gallery/ora-kaaba-scent.webp",
+      "featured": true,
+      "hidden": false
+    },
+    {
+      "title": "Bulk SMS in 10 Seconds",
+      "client": "MRAM Technologies",
+      "category": "B2B & SaaS",
+      "image": "gallery/mram-bulk-sms.webp",
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "title": "Oraimo EasyCut Trimmer",
+      "client": "Ora.com.bd",
+      "category": "Product Ads",
+      "image": "gallery/ora-easycut-trimmer.webp",
+      "featured": true,
+      "hidden": false
+    },
+    {
+      "title": "Even Big Brands Need a Boost",
+      "client": "Elitbuzz Technologies",
+      "category": "Brand & Social",
+      "image": "gallery/elitbuzz-boost-elephant.webp",
+      "featured": true,
+      "hidden": false
+    },
+    {
+      "title": "30K Facebook Followers",
+      "client": "Ora.com.bd",
+      "category": "Brand & Social",
+      "image": "gallery/ora-30k-followers.webp",
+      "featured": true,
+      "hidden": false
+    },
+    {
+      "title": "AI Olympiad Bangladesh Poster",
+      "client": "DIPTI × Daffodil International University",
+      "category": "Events",
+      "image": "gallery/dipti-ai-olympiad-poster.webp",
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "title": "Mini USB Air Humidifier",
+      "client": "Ora.com.bd",
+      "category": "Product Ads",
+      "image": "gallery/ora-air-humidifier.webp",
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "title": "All-in-One CRM Solution",
+      "client": "Elitbuzz Technologies",
+      "category": "B2B & SaaS",
+      "image": "gallery/elitbuzz-crm.webp",
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "title": "Hands-on Learning, Secure Career",
+      "client": "BCI",
+      "category": "Education & Courses",
+      "image": "gallery/bci-career-door.webp",
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "title": "Portable Turbo Fan",
+      "client": "Ora.com.bd",
+      "category": "Product Ads",
+      "image": "gallery/ora-turbo-fan.webp",
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "title": "Digital Marketing Services",
+      "client": "Elitbuzz Technologies",
+      "category": "Brand & Social",
+      "image": "gallery/elitbuzz-marketing-services.webp",
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "title": "Cyber Security Diploma",
+      "client": "DIPTI",
+      "category": "Education & Courses",
+      "image": "gallery/dipti-cyber-security-diploma.webp",
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "title": "Oraimo Watch Price Lineup",
+      "client": "Ora.com.bd",
+      "category": "Product Ads",
+      "image": "gallery/ora-oraimo-watch-lineup.webp",
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "title": "Smart SMS Marketing",
+      "client": "MRAM Technologies",
+      "category": "B2B & SaaS",
+      "image": "gallery/mram-smart-sms.webp",
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "title": "The First Step to More Sales",
+      "client": "Elitbuzz Technologies",
+      "category": "Brand & Social",
+      "image": "gallery/elitbuzz-first-step.webp",
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "title": "Diploma After HSC: Third Phase Admission",
+      "client": "Daffodil Technical Institute",
+      "category": "Education & Courses",
+      "image": "gallery/dti-hsc-diploma-admission.webp",
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "title": "ERP for Real Estate",
+      "client": "Elitbuzz Technologies",
+      "category": "B2B & SaaS",
+      "image": "gallery/elitbuzz-erp-real-estate.webp",
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "title": "Happy Freelancer Day",
+      "client": "DIPTI",
+      "category": "Brand & Social",
+      "image": "gallery/dipti-freelancer-day.webp",
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "title": "Polytechnic Admission Fest: 100% Fee Waiver",
+      "client": "BCI",
+      "category": "Education & Courses",
+      "image": "gallery/bci-admission-fest-calendar.webp",
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "title": "HR Management Software",
+      "client": "Elitbuzz Technologies",
+      "category": "B2B & SaaS",
+      "image": "gallery/elitbuzz-hr-management.webp",
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "title": "Interior & Exterior Design Course",
+      "client": "DIPTI",
+      "category": "Education & Courses",
+      "image": "gallery/dipti-interior-design-course.webp",
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "title": "ERP for Furniture Business",
+      "client": "Elitbuzz Technologies",
+      "category": "B2B & SaaS",
+      "image": "gallery/elitbuzz-erp-furniture.webp",
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "title": "Polytechnic Civil Engineering",
+      "client": "BCI",
+      "category": "Education & Courses",
+      "image": "gallery/bci-civil-engineering.webp",
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "title": "AI Olympiad Visionary Speaker",
+      "client": "DIPTI × Daffodil International University",
+      "category": "Events",
+      "image": "gallery/dipti-ai-olympiad-speaker.webp",
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "title": "PAM360 Zero Trust",
+      "client": "Elitbuzz × ManageEngine",
+      "category": "B2B & SaaS",
+      "image": "gallery/elitbuzz-pam360.webp",
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "title": "Diploma in Civil Engineering",
+      "client": "Daffodil Technical Institute",
+      "category": "Education & Courses",
+      "image": "gallery/dti-civil-engineering.webp",
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "title": "Authorized Certiport Test Center",
+      "client": "DIPTI",
+      "category": "Brand & Social",
+      "image": "gallery/dipti-certiport-center.webp",
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "title": "Endpoint Security Webinar",
+      "client": "Elitbuzz × ManageEngine",
+      "category": "Events",
+      "image": "gallery/elitbuzz-endpoint-webinar.webp",
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "title": "Master DevOps Engineer Course",
+      "client": "DIPTI",
+      "category": "Education & Courses",
+      "image": "gallery/dipti-master-devops.webp",
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "title": "Job Utsob 2024 at DIU",
+      "client": "Daffodil Technical Institute × Daffodil International University",
+      "category": "Events",
+      "image": "gallery/dti-job-utsob-2024.webp",
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "title": "Cloud Accounting Live Class",
+      "client": "DIPTI",
+      "category": "Education & Courses",
+      "image": "gallery/dipti-cloud-accounting.webp",
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "title": "DevOps Engineering Seminar",
+      "client": "DIPTI",
+      "category": "Events",
+      "image": "gallery/dipti-devops-seminar.webp",
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "title": "Diploma in Engineering: Admission Open",
+      "client": "Daffodil Technical Institute",
+      "category": "Education & Courses",
+      "image": "gallery/dti-admission-open.webp",
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "title": "AI Olympiad: Secure Your Spot",
+      "client": "DIPTI × Daffodil International University",
+      "category": "Events",
+      "image": "gallery/dipti-ai-olympiad-register.webp",
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "title": "Trainer Certifications",
+      "client": "DIPTI",
+      "category": "Brand & Social",
+      "image": "gallery/dipti-trainer-certifications.webp",
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "title": "Alumni Placement: Web Developer",
+      "client": "Daffodil Technical Institute",
+      "category": "Brand & Social",
+      "image": "gallery/dti-alumni-placement.webp",
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "title": "Happy Teacher's Day",
+      "client": "BCI",
+      "category": "Brand & Social",
+      "image": "gallery/bci-teachers-day.webp",
+      "featured": false,
+      "hidden": false
+    },
+    {
+      "title": "Diploma in Engineering Admission",
+      "client": "Daffodil Technical Institute",
+      "category": "Education & Courses",
+      "image": "gallery/dti-diploma-engineering.webp",
+      "featured": false,
+      "hidden": true
+    },
+    {
+      "title": "Start Your Career: Diploma in Engineering",
+      "client": "Daffodil Technical Institute",
+      "category": "Education & Courses",
+      "image": "gallery/dti-career-change.webp",
+      "featured": false,
+      "hidden": true
+    },
+    {
+      "title": "Diploma in Engineering Campaign",
+      "client": "Daffodil Technical Institute",
+      "category": "Education & Courses",
+      "image": "gallery/dti-diploma-laptop.webp",
+      "featured": false,
+      "hidden": true
+    },
+    {
+      "title": "DTI Campus: Diploma in Engineering",
+      "client": "Daffodil Technical Institute",
+      "category": "Education & Courses",
+      "image": "gallery/dti-campus-diploma.webp",
+      "featured": false,
+      "hidden": true
+    },
+    {
+      "title": "Diploma in Engineering: Labs & Facilities",
+      "client": "BCI",
+      "category": "Education & Courses",
+      "image": "gallery/bci-diploma-labs.webp",
+      "featured": false,
+      "hidden": true
+    },
+    {
+      "title": "Technical Education Today, Success Tomorrow",
+      "client": "BCI",
+      "category": "Education & Courses",
+      "image": "gallery/bci-technical-education.webp",
+      "featured": false,
+      "hidden": true
+    },
+    {
+      "title": "Admission Fest Web Banner",
+      "client": "BCI",
+      "category": "Education & Courses",
+      "image": "gallery/bci-admission-fest-banner.webp",
+      "featured": false,
+      "hidden": true
+    },
+    {
+      "title": "Admission Deadline Alert",
+      "client": "BCI",
+      "category": "Education & Courses",
+      "image": "gallery/bci-deadline-alert.webp",
+      "featured": false,
+      "hidden": true
+    },
+    {
+      "title": "Chairman Appointed to GEN Bangladesh",
+      "client": "Daffodil Technical Institute",
+      "category": "Brand & Social",
+      "image": "gallery/dti-congrats-gen-bangladesh.webp",
+      "featured": false,
+      "hidden": true
+    },
+    {
+      "title": "Group CEO Named BWUF Vice President",
+      "client": "Daffodil Technical Institute",
+      "category": "Brand & Social",
+      "image": "gallery/dti-congrats-bwuf.webp",
+      "featured": false,
+      "hidden": true
+    }
+  ]
+}

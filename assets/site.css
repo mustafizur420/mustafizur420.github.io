@@ -616,3 +616,5 @@
 .author-box p { color: var(--muted); font-size: 0.95rem; line-height: 1.6; margin: 4px 0 8px; }
 .author-box a { color: var(--orange); font-weight: 600; font-size: 0.95rem; }
 @media (max-width: 900px) { .post-layout { grid-template-columns: minmax(0, 1fr); gap: 24px; } .toc { position: static; } .blog-list { grid-template-columns: 1fr; } }
+.post-cover { width: 100%; height: auto; border-radius: 18px; margin-bottom: 28px; }
+.post-body img { max-width: 100%; height: auto; border-radius: 14px; }
