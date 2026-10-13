@@ -618,3 +618,14 @@
 @media (max-width: 900px) { .post-layout { grid-template-columns: minmax(0, 1fr); gap: 24px; } .toc { position: static; } .blog-list { grid-template-columns: 1fr; } }
 .post-cover { width: 100%; height: auto; border-radius: 18px; margin-bottom: 28px; }
 .post-body img { max-width: 100%; height: auto; border-radius: 14px; }
+
+/* Case study blocks */
+.cs-stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-top: 28px !important; }
+.cs-stats div { background: var(--cream); border-radius: 14px; padding: 16px; display: flex; flex-direction: column; gap: 4px; }
+.cs-stats b { font-family: var(--display); font-size: 1.6rem; font-weight: 800; color: var(--orange); letter-spacing: -0.03em; line-height: 1.1; }
+.cs-stats span { font-size: 0.85rem; color: var(--muted); line-height: 1.4; }
+.cs-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+.cs-grid img { width: 100%; height: auto; border-radius: 12px; }
+.post-body h3 { margin-top: 30px; }
+.win-link { display: inline-block; margin-top: 8px; color: var(--orange); font-weight: 600; }
+@media (max-width: 640px) { .cs-stats { grid-template-columns: repeat(2, 1fr); } .cs-grid { grid-template-columns: 1fr 1fr; } }

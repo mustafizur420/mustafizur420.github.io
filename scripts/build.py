@@ -26,6 +26,13 @@ def write(p, s):
         os.makedirs(os.path.dirname(full) or ".", exist_ok=True)
         open(full, "w", encoding="utf-8").write(s)
 
+TOOLS_EN = {
+    "roas": ("ROAS Calculator", "Enter revenue and ad spend to see your ROAS, break-even ROAS and profit after ads."),
+    "breakeven": ("Break-even ROAS Calculator", "Enter your price and costs to find the lowest ROAS and highest CPA you can afford."),
+    "cod": ("COD Real ROAS Calculator", "See the ROAS you really earned after cash-on-delivery returns. Free, and nothing you type is stored."),
+    "metrics": ("Ad Metrics Calculator", "Turn spend, impressions, clicks and conversions into CPM, CTR, CPC and CPA."),
+    "budget": ("Ad Budget Planner", "Work back from a revenue target to your total and daily ad budget."),
+}
 TOOLS = {
     "roas": ("ROAS Calculator", "Revenue আর অ্যাড খরচ দিলেই ROAS, break-even ROAS আর লাভ দেখাবে।"),
     "breakeven": ("Break-even ROAS Calculator", "দাম আর খরচ দিলেই সর্বনিম্ন ROAS আর সর্বোচ্চ CPA দেখাবে।"),
@@ -188,7 +195,7 @@ def build_blog():
               "datePublished": p["date"].isoformat(), "dateModified": p["date"].isoformat(), "inLanguage": p["lang"],
               "author": author, "publisher": author, "image": image, "mainEntityOfPage": url}
         bn = p["lang"] == "bn"
-        tool = TOOLS.get(p["tool"])
+        tool = (TOOLS if p["lang"] == "bn" else TOOLS_EN).get(p["tool"])
         cta = ('<div class="cta-card"><div><h3>%s</h3><p>%s</p></div><a href="../tools#tool-%s" class="btn">%s <span aria-hidden="true">→</span></a></div>' % (
             "নিজের সংখ্যা দিয়ে এখনই হিসাব করুন" if bn else "Try it with your own numbers", e(tool[1]), p["tool"], e(tool[0]))) if tool else ""
         # put the tool card right before the last section, like a natural mid-article call to action
@@ -224,8 +231,8 @@ def build_blog():
        "এই লেখায়" if bn else "In this post", "এই লেখায়" if bn else "In this post",
        "".join('<li><a href="#%s">%s</a></li>' % (i, t) for i, t in toc), cover,
        ('<p class="post-lead">%s</p>\n' % e(p["lead"])) if p["lead"] else "", body,
-       "Digital Marketing &amp; Creative Specialist. Ora.com.bd-তে মিডিয়া বায়িং দিয়ে বছরে ০ থেকে ৩ কোটি টাকার রেভিনিউ এনেছেন, 4–6X ROAS ধরে রেখে।" if bn else
-       "Digital Marketing &amp; Creative Specialist who scaled Ora.com.bd from zero to BDT 3 crore a year at a 4–6X ROAS.",
+       "Digital Marketing &amp; Creative Specialist. Ora.com.bd-কে শুরুর দিন থেকে ৯ মাসে ৩ কোটি টাকার রেভিনিউতে নিয়ে গেছেন, শুধু Meta Ads দিয়ে।" if bn else
+       "Digital Marketing &amp; Creative Specialist who took Ora.com.bd from launch to BDT 3 crore in revenue in 9 months on Meta Ads.",
        "যোগাযোগ করুন" if bn else "Get in touch")
         out += "</main>\n\n" + ftr + "\n</body>\n</html>\n"
         write("blog/%s.html" % p["slug"], out); keep.add(p["slug"] + ".html")
