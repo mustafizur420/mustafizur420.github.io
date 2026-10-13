@@ -1,5 +1,6 @@
 // Design gallery: reads gallery.json, renders the grid, filters and lightbox.
-// To add a design: put the images in /gallery and add one entry to gallery.json.
+// To add a design: put the images in /gallery, add one entry to gallery.json,
+// then run scripts/build_gallery.py so the pages carry pre-rendered markup for search engines.
 (function () {
   var featured = document.getElementById("featuredWork");
   var grid = document.getElementById("galleryGrid");
@@ -112,6 +113,7 @@
   fetch("gallery.json").then(function (r) { if (!r.ok) throw r; return r.json(); })
     .then(function (d) { items = d.filter(function (it) { return !it.hidden; }); setup(); })
     .catch(function () {
-      [featured, grid].forEach(function (el) { if (el) el.innerHTML = '<p class="empty">The gallery could not load. Please refresh the page.</p>'; });
+      // Pre-rendered markup stays in place; only show a message if there is nothing to show.
+      [featured, grid].forEach(function (el) { if (el && !el.querySelector(".shot")) el.innerHTML = '<p class="empty">The gallery could not load. Please refresh the page.</p>'; });
     });
 })();

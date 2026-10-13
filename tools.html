@@ -3,6 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="theme-color" content="#f6f3ee">
 <title>Free Marketing Tools: ROAS, Break-even & COD Calculators | Md. Mustafizur Rahman</title>
 <meta name="description" content="Free ROAS calculator, break-even ROAS, COD real ROAS, ad metrics (CPM, CTR, CPC, CPA) and ad budget planner for e-commerce marketers in Bangladesh.">
 <!-- Social preview -->
@@ -21,6 +25,7 @@
 <meta name="twitter:title" content="Free Marketing Tools: ROAS, Break-even &amp; COD Calculators">
 <meta name="twitter:description" content="Free ROAS, break-even ROAS, COD real ROAS, ad metrics and budget calculators for e-commerce marketers in Bangladesh.">
 <meta name="twitter:image" content="https://mustafizur420.github.io/og-image.jpg">
+<script type="application/ld+json" data-tools>[{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is a good ROAS?", "acceptedAnswer": {"@type": "Answer", "text": "It depends on your margin. A good ROAS is one comfortably above your break-even ROAS, which is 1 ÷ gross margin. With a 35% gross margin you break even at about 2.86x, so 4x is healthy. With a 20% margin you need 5x just to break even."}}, {"@type": "Question", "name": "How do I calculate break-even ROAS?", "acceptedAnswer": {"@type": "Answer", "text": "Take your selling price and subtract every cost per order: product cost, delivery, packaging and payment or COD charges. Divide the selling price by what is left. For a ৳1,500 product with ৳835 in costs, break-even ROAS is 1,500 ÷ 665 ≈ 2.26x."}}, {"@type": "Question", "name": "Why is my Facebook Ads ROAS higher than my real profit?", "acceptedAnswer": {"@type": "Answer", "text": "Ads Manager counts placed orders. In cash-on-delivery businesses some of those orders are refused or returned, and each return adds a courier cost. The COD Real ROAS calculator shows the ROAS on orders that were actually delivered and paid."}}, {"@type": "Question", "name": "What is the difference between ROAS and ACoS?", "acceptedAnswer": {"@type": "Answer", "text": "They are two views of the same numbers. ROAS is revenue ÷ ad spend; ACoS is ad spend ÷ revenue, shown as a percentage. A 5x ROAS equals a 20% ACoS."}}, {"@type": "Question", "name": "What is the difference between CPA and CPC?", "acceptedAnswer": {"@type": "Answer", "text": "CPC is what you pay for one click. CPA is what you pay for one result, such as a purchase or a lead. CPA = CPC ÷ conversion rate, so improving your landing page lowers CPA even if click prices stay the same."}}, {"@type": "Question", "name": "Are these calculators free?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. They run entirely in your browser, nothing you type is stored or sent anywhere, and they work in both BDT and USD."}}]}, {"@context": "https://schema.org", "@type": "WebApplication", "name": "Free Marketing Calculators", "url": "https://mustafizur420.github.io/tools", "applicationCategory": "BusinessApplication", "operatingSystem": "Any", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "BDT"}, "author": {"@type": "Person", "name": "Md. Mustafizur Rahman", "url": "https://mustafizur420.github.io/"}, "featureList": ["ROAS calculator", "Break-even ROAS and max CPA", "COD real ROAS", "CPM, CTR, CPC and CPA", "Ad budget planner"]}]</script>
 <!-- /Social preview -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -82,6 +87,79 @@
       <div class="tool-cta">
         <p>Want numbers like these for your brand?</p>
         <a href="./#contact" class="btn dark">Let's Work <span aria-hidden="true">→</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="guide" id="guide">
+    <div class="wrap">
+      <div class="guide-head">
+        <h2>How these calculators work</h2>
+        <p class="lead">Plain explanations of each metric, so you know what the numbers mean and what to do about them.</p>
+      </div>
+      <div class="guide-grid">
+        <article class="guide-item" id="about-roas">
+          <h3>ROAS Calculator: is your ad spend profitable?</h3>
+          <p>ROAS (return on ad spend) is the revenue your ads bring in for every unit you spend. If you spend ৳50,000 and the ads bring ৳2,50,000 in sales, your ROAS is 5x.</p>
+          <p>A ROAS number on its own does not tell you if you made money. That depends on your margin. Add your gross margin and the calculator shows your break-even ROAS and your profit after ad spend, so you can see at a glance whether a campaign is worth scaling.</p>
+          <p class="formula-line">ROAS = Revenue from ads ÷ Ad spend</p>
+          <a class="guide-link" href="#tool-roas" data-tool="roas">Open the calculator <span aria-hidden="true">↑</span></a>
+        </article>
+        <article class="guide-item" id="about-breakeven">
+          <h3>Break-even ROAS and maximum CPA</h3>
+          <p>Break-even ROAS is the lowest ROAS you can run at without losing money. Below it, every sale costs more in ads than it earns.</p>
+          <p>It comes from what is left of each order after product cost, delivery, packaging and payment or COD charges. That same amount is your maximum CPA, the most you can pay to win one order. Add the profit you want to keep and the calculator also gives a target CPA and target ROAS to optimise towards.</p>
+          <p class="formula-line">Break-even ROAS = Selling price ÷ (Selling price − all costs per order)</p>
+          <a class="guide-link" href="#tool-breakeven" data-tool="breakeven">Open the calculator <span aria-hidden="true">↑</span></a>
+        </article>
+        <article class="guide-item" id="about-cod">
+          <h3>Real ROAS for cash-on-delivery businesses</h3>
+          <p>With cash on delivery, Ads Manager counts every order that is placed, including the ones that are later refused or returned. Each returned parcel also costs a return courier charge. So the ROAS in your dashboard is usually higher than what you actually earned.</p>
+          <p>Enter your delivery success rate and the cost of a returned parcel to see your real ROAS on delivered orders, the real cost per delivered order and how much revenue returns are taking away. If the gap is large, confirming orders by phone before shipping is often the fastest fix.</p>
+          <p class="formula-line">Real ROAS = Delivered revenue ÷ (Ad spend + return costs)</p>
+          <a class="guide-link" href="#tool-cod" data-tool="cod">Open the calculator <span aria-hidden="true">↑</span></a>
+        </article>
+        <article class="guide-item" id="about-metrics">
+          <h3>CPM, CTR, CPC and CPA from your ad numbers</h3>
+          <p>Paste the spend, impressions, link clicks and conversions from any ad platform to get the core funnel metrics in one place.</p>
+          <p>CPM shows what you pay to reach 1,000 people, CTR shows how well your creative earns a click, CPC is the price of each click, conversion rate shows how well your landing page or offer turns clicks into results, and CPA is what each result costs. A low CTR points to the creative; a low conversion rate points to the page, price or offer.</p>
+          <p class="formula-line">CTR = Clicks ÷ Impressions · CPC = Spend ÷ Clicks · CPA = Spend ÷ Conversions</p>
+          <a class="guide-link" href="#tool-metrics" data-tool="metrics">Open the calculator <span aria-hidden="true">↑</span></a>
+        </article>
+        <article class="guide-item" id="about-budget">
+          <h3>Ad budget planner: work back from a sales goal</h3>
+          <p>Start from the revenue you want, your average order value and a realistic ROAS. The planner gives the total budget, daily budget, number of orders needed and the CPA you must hit.</p>
+          <p>Use your recent average ROAS rather than your best day, and start below the full daily budget so you can scale up while the numbers hold.</p>
+          <p class="formula-line">Budget = Revenue target ÷ Expected ROAS</p>
+          <a class="guide-link" href="#tool-budget" data-tool="budget">Open the calculator <span aria-hidden="true">↑</span></a>
+        </article>
+      </div>
+      <div class="faq">
+        <h2>Frequently asked questions</h2>
+        <details>
+          <summary>What is a good ROAS?</summary>
+          <p>It depends on your margin. A good ROAS is one comfortably above your break-even ROAS, which is 1 ÷ gross margin. With a 35% gross margin you break even at about 2.86x, so 4x is healthy. With a 20% margin you need 5x just to break even.</p>
+        </details>
+        <details>
+          <summary>How do I calculate break-even ROAS?</summary>
+          <p>Take your selling price and subtract every cost per order: product cost, delivery, packaging and payment or COD charges. Divide the selling price by what is left. For a ৳1,500 product with ৳835 in costs, break-even ROAS is 1,500 ÷ 665 ≈ 2.26x.</p>
+        </details>
+        <details>
+          <summary>Why is my Facebook Ads ROAS higher than my real profit?</summary>
+          <p>Ads Manager counts placed orders. In cash-on-delivery businesses some of those orders are refused or returned, and each return adds a courier cost. The COD Real ROAS calculator shows the ROAS on orders that were actually delivered and paid.</p>
+        </details>
+        <details>
+          <summary>What is the difference between ROAS and ACoS?</summary>
+          <p>They are two views of the same numbers. ROAS is revenue ÷ ad spend; ACoS is ad spend ÷ revenue, shown as a percentage. A 5x ROAS equals a 20% ACoS.</p>
+        </details>
+        <details>
+          <summary>What is the difference between CPA and CPC?</summary>
+          <p>CPC is what you pay for one click. CPA is what you pay for one result, such as a purchase or a lead. CPA = CPC ÷ conversion rate, so improving your landing page lowers CPA even if click prices stay the same.</p>
+        </details>
+        <details>
+          <summary>Are these calculators free?</summary>
+          <p>Yes. They run entirely in your browser, nothing you type is stored or sent anywhere, and they work in both BDT and USD.</p>
+        </details>
       </div>
     </div>
   </section>

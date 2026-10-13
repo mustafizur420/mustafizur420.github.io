@@ -188,6 +188,18 @@
         render();
       });
     });
+    document.addEventListener("click", function (e) {
+      var a = e.target.closest("[data-tool]"); if (!a) return;
+      var i = tools.findIndex(function (t) { return t.id === a.dataset.tool; });
+      if (i < 0) return;
+      e.preventDefault(); select(i);
+      document.getElementById("toolTabs").scrollIntoView({ behavior: "smooth", block: "center" });
+      tabsEl.children[i].focus({ preventScroll: true });
+    });
+    window.addEventListener("hashchange", function () {
+      var i = tools.findIndex(function (t) { return "#tool-" + t.id === location.hash; });
+      if (i >= 0 && i !== active) select(i);
+    });
     var start = tools.findIndex(function (t) { return "#tool-" + t.id === location.hash; });
     select(start > 0 ? start : 0);
   })();
