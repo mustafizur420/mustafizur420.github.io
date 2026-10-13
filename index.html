@@ -439,8 +439,8 @@
       <li><a href="#about">About</a></li>
       <li><a href="#services">Services</a></li>
       <li><a href="#experience">Experience</a></li>
-      <li><a href="#tools">Tools</a></li>
       <li><a href="#credentials">Certificates</a></li>
+      <li><a href="#tools">Tools</a></li>
     </ul>
     <a href="#contact" class="btn dark">Contact Me</a>
     <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks"><span></span></button>
@@ -614,6 +614,23 @@
     </div>
   </section>
 
+  <!-- CREDENTIALS -->
+  <section id="credentials">
+    <div class="wrap">
+      <div class="head-row reveal">
+        <h2>Certifications &amp; Education</h2>
+      </div>
+      <div class="grid-3">
+        <div class="cred reveal"><span class="tag g">Education</span><h3>B.Sc. in Computer Science &amp; Engineering</h3><p>Uttara University (currently enrolled)</p></div>
+        <div class="cred reveal"><span class="tag g">Education</span><h3>Diploma in Computer Science &amp; Technology</h3><p>Daffodil Technical Institute, result 3.92 out of 4.00</p></div>
+        <div class="cred reveal"><span class="tag">Certificate</span><h3>Digital Marketing, NSDA Level-4</h3><p>Pencil Box, Dhaka</p></div>
+        <div class="cred reveal"><span class="tag">Certificate</span><h3>Diploma in SMM &amp; M</h3><p>MFT Institute of Management, Portugal</p></div>
+        <div class="cred reveal"><span class="tag">Certificate</span><h3>Graphic Design, NSDA Level-3</h3><p>DIPTI, Dhaka</p></div>
+        <div class="cred reveal"><span class="tag">Certificate</span><h3>WordPress &amp; E-Commerce Mastery</h3><p>Udemy</p></div>
+      </div>
+    </div>
+  </section>
+
   <!-- MARKETING TOOLS -->
   <section class="tools" id="tools">
     <div class="wrap">
@@ -651,29 +668,6 @@
     </div>
   </section>
 
-  <!-- CREDENTIALS -->
-  <section id="credentials">
-    <div class="wrap">
-      <div class="head-row reveal">
-        <h2>Certifications &amp; Education</h2>
-      </div>
-      <div class="grid-3">
-        <div class="cred reveal"><span class="tag g">Education</span><h3>B.Sc. in Computer Science &amp; Engineering</h3><p>Uttara University (currently enrolled)</p></div>
-        <div class="cred reveal"><span class="tag g">Education</span><h3>Diploma in Computer Science &amp; Technology</h3><p>Daffodil Technical Institute, result 3.92 out of 4.00</p></div>
-        <div class="cred reveal"><span class="tag">Certificate</span><h3>Digital Marketing, NSDA Level-4</h3><p>Pencil Box, Dhaka</p></div>
-        <div class="cred reveal"><span class="tag">Certificate</span><h3>Diploma in SMM &amp; M</h3><p>MFT Institute of Management, Portugal</p></div>
-        <div class="cred reveal"><span class="tag">Certificate</span><h3>Graphic Design, NSDA Level-3</h3><p>DIPTI, Dhaka</p></div>
-        <div class="cred reveal"><span class="tag">Certificate</span><h3>Typography &amp; SM Using AI CC</h3><p>CADCIM Technology, USA</p></div>
-        <div class="cred reveal"><span class="tag">Certificate</span><h3>Cyber Security &amp; Ethical Hacking</h3><p>DIPTI, Dhaka</p></div>
-        <div class="cred reveal"><span class="tag">Certificate</span><h3>Lean Six-Sigma Practitioner</h3><p>PMI, USA</p></div>
-        <div class="cred reveal"><span class="tag">Certificate</span><h3>Generative AI Enthusiast</h3><p>LinkedIn Learning</p></div>
-        <div class="cred reveal"><span class="tag">Certificate</span><h3>Master Course in Leadership</h3><p>Udemy</p></div>
-        <div class="cred reveal"><span class="tag">Certificate</span><h3>Gmail Productivity</h3><p>Udemy</p></div>
-        <div class="cred reveal"><span class="tag">Certificate</span><h3>WordPress &amp; E-Commerce Mastery</h3><p>Udemy</p></div>
-      </div>
-    </div>
-  </section>
-
   <!-- CONNECT -->
   <section class="connect" id="contact">
     <div class="wrap reveal">
@@ -696,8 +690,8 @@
       <li><a href="#about">About</a></li>
       <li><a href="#services">Services</a></li>
       <li><a href="#experience">Experience</a></li>
-      <li><a href="#tools">Tools</a></li>
       <li><a href="#credentials">Certificates</a></li>
+      <li><a href="#tools">Tools</a></li>
     </ul>
     <div class="foot-bottom">Copyright © <span id="year">2026</span> Md. Mustafizur Rahman. All rights reserved.</div>
   </div>
@@ -751,7 +745,7 @@
   }
 
   // Active nav link
-  var sections = ["home", "about", "services", "experience", "tools", "credentials"].map(function (id) { return document.getElementById(id); });
+  var sections = ["home", "about", "services", "experience", "credentials", "tools"].map(function (id) { return document.getElementById(id); });
   var links = navLinks.querySelectorAll("a");
   window.addEventListener("scroll", function () {
     var y = window.scrollY + 140, current = 0;
