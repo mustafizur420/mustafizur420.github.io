@@ -4,7 +4,7 @@ Run: python3 scripts/build_blog.py
 """
 import html, json, os, re
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-BASE = "https://mustafizur420.github.io/"
+BASE = "https://mustafiz.online/"
 e = lambda s: html.escape(s, quote=True)
 POSTS = [{
   "slug": "cod-real-roas",
@@ -18,7 +18,7 @@ POSTS = [{
 src = open(os.path.join(ROOT, "gallery.html"), encoding="utf-8").read()
 head = src[:src.index("<body")]
 header = src[src.index('<div class="progress"'):src.index("<main>")]
-footer = src[src.index("<footer>"):src.index('<script src="assets/site.js">')]
+footer = src[src.index("<footer>"):src.index('<script src="assets/site.js')]
 
 def relink(s):
     s = re.sub(r'(href|src)="(assets/|favicon|apple-touch)', r'\1="../\2', s)

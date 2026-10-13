@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://mustafizur420.github.io/sitemap.xml
+Sitemap: https://mustafiz.online/sitemap.xml
