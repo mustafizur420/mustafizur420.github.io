@@ -560,3 +560,59 @@
 .faq details[open] summary::after { transform: translateY(-50%) rotate(45deg); }
 .faq details p { color: var(--muted); padding: 0 0 22px; max-width: 700px; }
 @media (max-width: 760px) { .guide-grid { grid-template-columns: 1fr; } .guide-item:last-child:nth-child(odd) { grid-column: auto; } }
+
+/* Blog */
+[lang="bn"] { font-family: "Hind Siliguri", var(--body); }
+[lang="bn"] h1, [lang="bn"] h2, [lang="bn"] h3 { font-family: "Hind Siliguri", var(--display); letter-spacing: 0; line-height: 1.3; }
+.blog-list-sec { padding-top: 56px; }
+.blog-list { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
+.post-card {
+  position: relative; display: flex; flex-direction: column; gap: 12px; padding: 30px 28px 70px;
+  border: 1px solid var(--line); border-radius: 18px; transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+}
+.post-card:hover { transform: translateY(-5px); box-shadow: 0 18px 40px rgba(20,20,20,.09); border-color: transparent; }
+.post-card .tag { align-self: flex-start; }
+.post-card h2 { font-size: 1.5rem; font-weight: 700; }
+.post-card p { color: var(--muted); }
+.post-card .post-meta { font-size: 0.85rem; color: var(--muted); }
+.post-card i { position: absolute; left: 28px; bottom: 24px; width: 36px; height: 36px; border-radius: 50%; border: 1px solid var(--line); display: grid; place-items: center; font-style: normal; transition: all .25s ease; }
+.post-card:hover i { background: var(--orange); border-color: var(--orange); color: #fff; transform: rotate(-45deg); }
+
+.post-hero { background: var(--cream); padding: 64px 0 52px; position: relative; overflow: hidden; }
+.post-wrap { position: relative; max-width: 860px; }
+.post-hero .crumb { font-size: 0.82rem; font-weight: 600; color: var(--muted); margin-bottom: 18px; font-family: var(--body); }
+.post-hero .crumb a:hover { color: var(--orange); }
+.post-hero h1 { font-size: clamp(2rem, 5vw, 3.3rem); font-weight: 700; margin-top: 14px; }
+.post-meta { color: var(--muted); font-size: 0.92rem; margin-top: 16px; }
+.post-layout { display: grid; grid-template-columns: 220px minmax(0, 1fr); gap: 56px; padding-top: 56px; padding-bottom: 40px; max-width: 1080px; }
+.toc { position: sticky; top: 100px; align-self: start; font-size: 0.92rem; }
+.toc p { font-weight: 700; margin-bottom: 10px; }
+.toc ol { list-style: none; border-left: 2px solid var(--line); }
+.toc li a { display: block; padding: 6px 0 6px 14px; margin-left: -2px; border-left: 2px solid transparent; color: var(--muted); line-height: 1.4; }
+.toc li a:hover { color: var(--ink); border-left-color: var(--orange); }
+.post-body { font-size: 1.08rem; line-height: 1.85; max-width: 720px; }
+.post-body > * + * { margin-top: 18px; }
+.post-body h2 { font-size: 1.6rem; font-weight: 700; margin-top: 48px; scroll-margin-top: 100px; }
+.post-body h3 { font-size: 1.2rem; font-weight: 700; }
+.post-body ul, .post-body ol { padding-left: 22px; }
+.post-body li { margin-top: 8px; }
+.post-body li::marker { color: var(--orange); font-weight: 700; }
+.post-body strong { font-weight: 600; }
+.post-lead { font-size: 1.22rem; color: var(--ink); }
+.formula-box { background: var(--ink); color: #fff; border-radius: 14px; padding: 20px 22px; font-weight: 600; font-size: 1.05rem; }
+.table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 14px; }
+.post-body table { width: 100%; border-collapse: collapse; font-size: 0.98rem; min-width: 520px; }
+.post-body th, .post-body td { padding: 12px 16px; text-align: left; border-bottom: 1px solid var(--line); }
+.post-body thead th { background: var(--cream); font-weight: 600; }
+.post-body tbody tr:last-child td { border-bottom: 0; }
+.post-body td:nth-child(3) { font-weight: 700; color: var(--orange); }
+.cta-card { background: var(--yellow); border-radius: 20px; padding: 28px; display: flex; gap: 22px; align-items: center; justify-content: space-between; flex-wrap: wrap; margin-top: 40px !important; }
+.cta-card h3 { font-size: 1.3rem; }
+.cta-card p { font-size: 0.98rem; margin-top: 6px; max-width: 440px; line-height: 1.6; }
+.cta-card .btn { font-family: var(--display); }
+.author-box { display: flex; gap: 18px; align-items: flex-start; border-top: 1px solid var(--line); padding-top: 28px; margin-top: 48px !important; }
+.author-box img { width: 64px; height: 64px; border-radius: 50%; object-fit: cover; object-position: top; background: var(--green); flex: none; }
+.author-box b { font-family: var(--display); }
+.author-box p { color: var(--muted); font-size: 0.95rem; line-height: 1.6; margin: 4px 0 8px; }
+.author-box a { color: var(--orange); font-weight: 600; font-size: 0.95rem; }
+@media (max-width: 900px) { .post-layout { grid-template-columns: minmax(0, 1fr); gap: 24px; } .toc { position: static; } .blog-list { grid-template-columns: 1fr; } }
