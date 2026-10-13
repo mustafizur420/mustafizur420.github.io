@@ -373,5 +373,77 @@
     "thumb": "gallery/dti-campus-diploma-thumb.webp",
     "width": 2048,
     "height": 2048
+  },
+  {
+    "title": "Diploma in Engineering: Labs & Facilities",
+    "client": "BCI",
+    "category": "Education & Courses",
+    "image": "gallery/bci-diploma-labs.webp",
+    "thumb": "gallery/bci-diploma-labs-thumb.webp",
+    "width": 2000,
+    "height": 2000
+  },
+  {
+    "title": "Hands-on Learning, Secure Career",
+    "client": "BCI",
+    "category": "Education & Courses",
+    "image": "gallery/bci-career-door.webp",
+    "thumb": "gallery/bci-career-door-thumb.webp",
+    "width": 2000,
+    "height": 2000
+  },
+  {
+    "title": "Polytechnic Civil Engineering",
+    "client": "BCI",
+    "category": "Education & Courses",
+    "image": "gallery/bci-civil-engineering.webp",
+    "thumb": "gallery/bci-civil-engineering-thumb.webp",
+    "width": 1638,
+    "height": 2048
+  },
+  {
+    "title": "Technical Education Today, Success Tomorrow",
+    "client": "BCI",
+    "category": "Education & Courses",
+    "image": "gallery/bci-technical-education.webp",
+    "thumb": "gallery/bci-technical-education-thumb.webp",
+    "width": 1080,
+    "height": 1350
+  },
+  {
+    "title": "Happy Teacher's Day",
+    "client": "BCI",
+    "category": "Brand & Social",
+    "image": "gallery/bci-teachers-day.webp",
+    "thumb": "gallery/bci-teachers-day-thumb.webp",
+    "width": 1080,
+    "height": 1080
+  },
+  {
+    "title": "Polytechnic Admission Fest: 100% Fee Waiver",
+    "client": "BCI",
+    "category": "Education & Courses",
+    "image": "gallery/bci-admission-fest-calendar.webp",
+    "thumb": "gallery/bci-admission-fest-calendar-thumb.webp",
+    "width": 1080,
+    "height": 1350
+  },
+  {
+    "title": "Admission Fest Web Banner",
+    "client": "BCI",
+    "category": "Education & Courses",
+    "image": "gallery/bci-admission-fest-banner.webp",
+    "thumb": "gallery/bci-admission-fest-banner-thumb.webp",
+    "width": 2000,
+    "height": 878
+  },
+  {
+    "title": "Admission Deadline Alert",
+    "client": "BCI",
+    "category": "Education & Courses",
+    "image": "gallery/bci-deadline-alert.webp",
+    "thumb": "gallery/bci-deadline-alert-thumb.webp",
+    "width": 1080,
+    "height": 1350
   }
 ]
