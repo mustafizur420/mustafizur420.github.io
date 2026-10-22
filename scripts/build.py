@@ -12,12 +12,70 @@ import datetime, glob, hashlib, html, json, math, os, re
 
 import markdown
 import yaml
-from PIL import Image
+from PIL import Image, ImageDraw, ImageFont
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BASE = "https://mustafiz.online/"
 e = lambda s: html.escape(str(s), quote=True)
 P = lambda *a: os.path.join(ROOT, *a)
+
+
+# ---------------------------------------------------------------- share images
+def _font(name, size, var=None):
+    f = ImageFont.truetype(P("scripts", "fonts", name), size, layout_engine=ImageFont.Layout.RAQM)
+    if var: f.set_variation_by_name(var)
+    return f
+
+def _wrap(draw, text, font, width):
+    lines, cur = [], ""
+    for w in text.split():
+        t = (cur + " " + w).strip()
+        if cur and draw.textlength(t, font=font) > width:
+            lines.append(cur); cur = w
+        else:
+            cur = t
+    return lines + ([cur] if cur else [])
+
+def make_share_image(p, out):
+    """1200x630 social preview for one post, in the site's colours."""
+    W, H, M = 1200, 630, 64
+    ink, cream, orange, yellow, muted = (27, 26, 24), (246, 243, 238), (255, 122, 47), (255, 201, 60), (107, 102, 93)
+    im = Image.new("RGB", (W, H), cream)
+    d = ImageDraw.Draw(im)
+    d.ellipse((900, -260, 1340, 180), fill=(249, 228, 176))
+    # tag pill
+    tf = _font("PlusJakartaSans.ttf", 22, "ExtraBold")
+    tag = p["tag"].upper()
+    tw = d.textlength(tag, font=tf)
+    d.rounded_rectangle((M, 56, M + tw + 74, 106), radius=25, fill=ink)
+    d.ellipse((M + 24, 75, M + 36, 87), fill=orange)
+    d.text((M + 50, 82), tag, font=tf, fill=cream, anchor="lm")
+    # title: largest size that fits in three lines
+    for size in range(72, 42, -2):
+        f = _font("HindSiliguri-Bold.ttf", size)
+        lines = _wrap(d, p["title"], f, W - 2 * M)
+        if len(lines) <= 3: break
+    if len(lines) > 3:
+        lines = lines[:3]
+        while d.textlength(lines[2] + "…", font=f) > W - 2 * M and " " in lines[2]:
+            lines[2] = lines[2].rsplit(" ", 1)[0]
+        lines[2] += "…"
+    lh = int(size * 1.3)
+    block = len(lines) * lh + 44              # title lines + gap + date row
+    y = 132 + max(0, (400 - block) // 2) + int(size * .95)   # centre between pill and footer
+    for ln in lines:
+        d.text((M, y), ln, font=f, fill=ink, anchor="ls"); y += lh
+    # date line with an orange rule
+    y += 30 - lh + int(size * .3)
+    d.rectangle((M, y, M + 56, y + 6), fill=orange)
+    mf = _font("HindSiliguri-SemiBold.ttf", 26)
+    d.text((M + 76, y + 3), "%s · %s" % (p["date_h"], p["read_h"]), font=mf, fill=muted, anchor="lm")
+    # footer
+    d.rectangle((0, H - 96, W, H), fill=ink)
+    d.text((M, H - 48), "Md. Mustafizur Rahman", font=_font("PlusJakartaSans.ttf", 28, "ExtraBold"), fill=cream, anchor="lm")
+    d.text((W - M, H - 48), "mustafiz.online/blog", font=_font("PlusJakartaSans.ttf", 24, "Medium"), fill=yellow, anchor="rm")
+    os.makedirs(os.path.dirname(out), exist_ok=True)
+    im.save(out, "JPEG", quality=88, optimize=True, progressive=True)
 read = lambda p: open(P(p), encoding="utf-8").read()
 def write(p, s):
     full = P(p)
@@ -173,7 +231,9 @@ def page_head(head, title, desc, url, typ, ld, image):
             (r'<meta property="og:image" content="[^"]*">', '<meta property="og:image" content="%s">' % image),
             (r'<meta name="twitter:image" content="[^"]*">', '<meta name="twitter:image" content="%s">' % image)]
     for a, b in subs: h = re.sub(a, lambda m: b, h)
-    if image != BASE + "og-image.jpg":
+    if image.startswith(BASE + "og/"):
+        h = re.sub(r'<meta property="og:image:alt" content="[^"]*">', lambda m: '<meta property="og:image:alt" content="%s">' % e(title), h)
+    if image != BASE + "og-image.jpg" and not image.startswith(BASE + "og/"):
         h = re.sub(r'\n<meta property="og:image:(width|height)" content="[^"]*">', "", h)
     h = re.sub(r'\n<script type="application/ld\+json"[^>]*>.*?</script>', "", h, flags=re.S)
     h = h.replace("<!-- /Social preview -->", '<script type="application/ld+json">%s</script>\n<!-- /Social preview -->' % json.dumps(ld, ensure_ascii=False))
@@ -188,10 +248,17 @@ def build_blog():
     ftr = relink(footer) + '<script src="../assets/site.js"></script>\n'
     author = {"@type": "Person", "name": "Md. Mustafizur Rahman", "url": BASE}
     keep = {"index.html"}
+    og_keys = json.loads(read("og/keys.json")) if os.path.exists(P("og/keys.json")) else {}
     for p in posts:
         url = BASE + "blog/" + p["slug"]
         body, toc = render_body(p["body"])
-        image = BASE + p["cover"] if p["cover"] else BASE + "og-image.jpg"
+        # only redraw when the text on it changes, so rebuilds don't churn the images
+        key = hashlib.md5(("v1|%(title)s|%(tag)s|%(date_h)s|%(read_h)s" % p).encode()).hexdigest()[:12]
+        og_out = P("og", p["slug"] + ".jpg")
+        if og_keys.get(p["slug"]) != key or not os.path.exists(og_out):
+            make_share_image(p, og_out)
+        og_keys[p["slug"]] = key
+        image = BASE + p["cover"] if p["cover"] else BASE + "og/" + p["slug"] + ".jpg"
         ld = {"@context": "https://schema.org", "@type": "BlogPosting", "headline": p["seo_title"], "description": p["desc"],
               "datePublished": p["date"].isoformat(), "dateModified": p["date"].isoformat(), "inLanguage": p["lang"],
               "author": author, "publisher": author, "image": image, "mainEntityOfPage": url}
@@ -275,6 +342,9 @@ def build_blog():
     write("blog/index.html", out)
     for f in glob.glob(P("blog/*.html")):  # remove pages for deleted or drafted posts
         if os.path.basename(f) not in keep: os.remove(f)
+    for f in glob.glob(P("og/*.jpg")):  # and their share images
+        if os.path.basename(f)[:-4] + ".html" not in keep: os.remove(f)
+    write("og/keys.json", json.dumps({k: v for k, v in sorted(og_keys.items()) if k + ".html" in keep}, indent=1) + "\n")
     print("blog: %d post(s)" % len(posts))
     return posts
 
