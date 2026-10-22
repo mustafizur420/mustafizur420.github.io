@@ -10,7 +10,7 @@
   function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
 
   function card(it, i) {
-    return '<button type="button" class="shot" data-i="' + i + '" style="--d:' + (i % 6) * 60 + 'ms" aria-label="Open ' + esc(it.title) + '">' +
+    return '<button type="button" class="shot" data-i="' + i + '" style="--d:' + (i % 6) * 60 + 'ms"">' +
       '<img src="' + esc(it.thumb) + '" alt="' + esc(it.title + ", " + it.client) + '" width="' + it.width + '" height="' + it.height + '" loading="lazy" decoding="async">' +
       '<span class="shot-meta"><b>' + esc(it.title) + '</b><small>' + esc(it.client) + ' · ' + esc(it.category) + '</small></span></button>';
   }

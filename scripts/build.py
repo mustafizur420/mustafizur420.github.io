@@ -74,10 +74,10 @@ def build_gallery():
 
     shown = [x for x in out if not x.get("hidden")]
     def card(it, i, eager=False):
-        return ('<button type="button" class="shot" data-i="%d" style="--d:%dms" aria-label="Open %s">'
+        return ('<button type="button" class="shot" data-i="%d" style="--d:%dms">'
                 '<img src="%s" alt="%s" width="%s" height="%s" %sdecoding="async">'
                 '<span class="shot-meta"><b>%s</b><small>%s · %s</small></span></button>') % (
-            i, (i % 6) * 60, e(it["title"]), e(it["thumb"]), e(it["title"] + ", " + it["client"]),
+            i, (i % 6) * 60, e(it["thumb"]), e(it["title"] + ", " + it["client"]),
             it["width"], it["height"], "" if eager else 'loading="lazy" ', e(it["title"]), e(it["client"]), e(it["category"]))
     cols, hs = [[], [], []], [0.0] * 3
     for i, it in enumerate(shown):
@@ -209,7 +209,7 @@ def build_blog():
         alt_links = ('<link rel="alternate" hreflang="%s" href="%s">\n<link rel="alternate" hreflang="%s" href="%sblog/%s">\n' % (
             p["lang"], url, tr["lang"], BASE, tr["slug"])) if tr else ""
         cover = '<img class="post-cover" src="../%s" alt="" loading="eager">' % e(p["cover"]) if p["cover"] else ""
-        out = page_head(head, p["seo_title"] + " | Md. Mustafizur Rahman", p["desc"], url, "article", ld, image)
+        out = page_head(head, (p["seo_title"] + " | Md. Mustafizur Rahman" if len(p["seo_title"]) <= 50 else p["seo_title"]), p["desc"], url, "article", ld, image)
         if bn: out = out.replace('<html lang="en">', '<html lang="bn">')
         if alt_links: out = out.replace("</head>", alt_links + "</head>", 1)
         out += '<body data-page="post">\n\n' + hdr + "<main>\n"
