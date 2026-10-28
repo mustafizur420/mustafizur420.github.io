@@ -246,7 +246,7 @@ def build_blog():
     head, header, footer = site_parts()
     hdr = relink(header).replace('<a href="./">Blog</a>', '<a href="./" class="active" aria-current="page">Blog</a>')
     ftr = relink(footer) + '<script src="../assets/site.js"></script>\n'
-    author = {"@type": "Person", "name": "Md. Mustafizur Rahman", "url": BASE}
+    author = {"@type": "Person", "@id": BASE + "#person", "name": "Md. Mustafizur Rahman", "jobTitle": "Digital Marketer", "url": BASE}
     keep = {"index.html"}
     og_keys = json.loads(read("og/keys.json")) if os.path.exists(P("og/keys.json")) else {}
     for p in posts:
