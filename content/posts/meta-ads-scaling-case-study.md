@@ -9,7 +9,7 @@ language: en
 translation: meta-ads-scaling-case-study-bn
 lead: "A new e-commerce brand in Bangladesh launched with no customers, no sales history and no ad data. I ran its paid growth from day one. In nine months it reached crore-level revenue entirely from Meta Ads, while the monthly ad budget grew twelvefold and the best campaigns held a 4–6X ROAS."
 tool: breakeven
-draft: false
+draft: true
 ---
 
 <div class="cs-stats">
